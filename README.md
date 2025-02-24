@@ -12,8 +12,3 @@ Animated elements for engaging user experience
 Placeholder for Web3 wallet connection
 Social media integration
 Tokenomics and roadmap sections
-
-Setup Instructions
-Local Development
-
-Clone this repository
