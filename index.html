@@ -488,6 +488,13 @@
             .right {
                 left: 0;
             }
+		.circular-image {
+    width: 300px; /* Set your desired size */
+    height: 300px;
+    border-radius: 50%; /* This creates the circle effect */
+    object-fit: cover; /* This ensures the image fills the circle without distortion */
+    overflow: hidden;
+}
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
@@ -524,7 +531,7 @@
                 <a href="#community" class="btn secondary">Join Community</a>
             </div>
             <div class="hero-image">
-                <img src="piclumen-1740489838645.png" alt="Huggo">
+                <img src="piclumen-1740489838645.png" alt="Huggo" class="circular-image">
             </div>
         </div>
     </section>
