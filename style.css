@@ -583,9 +583,7 @@ footer {
         width: 250px;
         height: 250px;
     }
-}
-
-/* Cookie Banner */
+    /* Cookie Banner */
 .cookie-banner {
     position: fixed;
     bottom: 0;
@@ -642,3 +640,6 @@ footer {
     transform: translateY(-2px);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
+
+}
+
