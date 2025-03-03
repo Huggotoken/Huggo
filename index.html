@@ -198,6 +198,14 @@
     </div>
 </div>
     
-<script src="scripts.js"></script>
+<script>
+  console.log("Inline script test");
+  setTimeout(function() {
+    document.getElementById('cookie-banner').classList.add('active');
+    console.log("Adding active class to cookie banner");
+  }, 2000);
+</script>
+
+
 </body>
 </html>
