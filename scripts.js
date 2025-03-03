@@ -1,3 +1,5 @@
+console.log("Scripts.js loaded successfully");
+
 // General site functionality
 document.addEventListener('DOMContentLoaded', function() {
     // Smooth scrolling for navigation links
